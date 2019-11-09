@@ -7,3 +7,5 @@ Notes:
       -This code is commented with instructions on which lines need to be changed to run your data (primarily changing directories to match your files)
 
 Please direct any questions to: hagence@oregonstate.edu, https://cedrichagen.weebly.com/contact.html
+
+Funding: This work was supported by the NSF award EAR-1645411 to J. Stoner. C. Hagen acknowledges support from the NSF GRFP and the ARCS Foundation.
