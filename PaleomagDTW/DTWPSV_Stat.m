@@ -352,7 +352,7 @@ for ii=1:length(g)
             rdec = samples_dec_C(:,kk);
             rinc = samples_inc_C(:,kk);
             r11=[rdec,rinc];
-            [rid,rii,xc,d_out,Dist,w_scale,overlap]=dtw_paleomag_br(tdi,r11,dx,tt_C,g_val,edge_val,0,1,0);
+            [rid,rii,xc,d_out,Dist,w_scale,overlap]=dtw_paleomag(tdi,r11,dx,tt_C,g_val,edge_val,0,1,0);
             overlap_all(ii,jj,kk) = overlap;
             xc_tmp(kk) = xc;
 %             pause(1);
